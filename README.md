@@ -1,14 +1,14 @@
-CLI Multi-Task Progress Bar Simulator (C)
+- CLI Multi-Task Progress Bar Simulator (C)
 
 A simple terminal-based task progress simulator built using the C programming language. This project visually demonstrates how multiple tasks progress simultaneously using animated progress bars in the command-line interface.
 
- Project Overview
+ - Project Overview
 
 This program simulates multiple tasks running in parallel within a terminal environment. Each task progresses at a different speed, creating a dynamic and animated progress bar display.
 
 The application continuously updates the progress of each task until all tasks reach 100% completion, providing a visual representation similar to download managers or build systems.
 
- Key Features
+- Key Features
 
  - Multiple task progress simulation
 
@@ -20,47 +20,47 @@ The application continuously updates the progress of each task until all tasks r
 
 - Real-time task completion tracking
 
- Technologies Used
+- Technologies Used
 
-C Programming Language
+  - C Programming Language
 
-stdio.h – Input and output operations
+  - stdio.h – Input and output operations
 
-stdlib.h – System functions and utilities
+  - stdlib.h – System functions and utilities
 
-time.h – Random seed initialization
+  - time.h – Random seed initialization
 
-unistd.h – Sleep function for animation timing
+  - unistd.h – Sleep function for animation timing
 
- Development Environment
+- Development Environment
 
-Code Editor: Dev-C++
+  - Code Editor: Dev-C++
 
-Platform: Command Line / Terminal
+  - Platform: Command Line / Terminal
 
- How to Run the Program
+- How to Run the Program
 
- Compile the source code
+  -  Compile the source code
 
-gcc progress_bar.c -o progress
+  - gcc progress_bar.c -o progress
 
- Run the program
+- Run the program
 
-./progress
- Programming Concepts Applied
+   - ./progress
+   -  Programming Concepts Applied
+    
+- Structures (struct) for task management
 
-Structures (struct) for task management
+   - Arrays for handling multiple tasks
 
-Arrays for handling multiple tasks
+   - Random number generation
 
-Random number generation
+   - Loop-based simulation logic
 
-Loop-based simulation logic
+   - Terminal UI rendering with progress bars
 
-Terminal UI rendering with progress bars
+   - Screen clearing for animation effects
 
-Screen clearing for animation effects
-
-  Author
+ - Author
 
 Kalpesh Wagh
